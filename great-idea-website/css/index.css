@@ -64,6 +64,30 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+html{
+	box-sizing: border-box;
+}
 .navigation{
+	display: inline-block;
 	color: blue;
+}
+
+
+section img.roundImg {  
+    display: inline-block;
+
+}
+.links{
+	display: inline-block;
+}
+
+.navigationlogo{
+	display: inline-block;
+	width: 20%;
+}
+
+.container{
+	width: 880px;
+	margin: 0 auto;
+    margin-top: 20px;
 }
